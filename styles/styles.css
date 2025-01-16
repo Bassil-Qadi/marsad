@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.card {
+    justify-content: space-around !important;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card-img-top {
+    width: 130px !important;
+    height: 65px !important;
+    margin: auto;
+}
+
+.card-title {
+    font-weight: bold !important;
+    color: var(--text-primary) !important;
+    margin-bottom: 20px !important;
+}
+
+.btn-primary {
+    background-color: #0078BB !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-outline-primary {
+    width: 200px;
+    color: black;
+    border: 1px solid #0078BB;
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #242D50 !important;
+}
+
+.text-secondary {
+    color: #0078BB !important;
+}
+
+.btn-outline-secondary {
+    border: 2px solid white !important;
+    color: white;
+}
+
+.bg-primary {
+    background-color: #1E2B6E !important;
+}
+
+.text-primary {
+    color: #1E2B6E;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+
+.navbar {
+    opacity: 0.84 !important;
+}
+
+.accordion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px !important;
+    padding: 1rem !important;
+    background-color: white !important;
+}
+
+.accordion-item {
+    width: 100%;
+    border: none;
+}
+
+.accordion-button:focus {
+    background-color: #F5F7FA !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.accordion-button {
+    width: 100%;
+    background-color: #F5F7FA !important;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.accordion-body {
+    color:#0078BB
+}
+
+.accordion-button::after {
+    background-image: url('/assets/Path\ 34747.svg') !important; /* Path to your collapsed icon */
+    transition: transform 0.3s;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: none !important; 
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.6)), 
+              url('/assets/Lovepik_com-500738020-artificial-intelligence-background.jpg') no-repeat center center/cover;
+    
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container button {
+    width: 200px;
+}
+
+#myLineChart {
+    height: 500px !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  /* #aiIndexChart {
+    width: 1000px;
+    height: 800px;
+  } */
+
+  footer {
+    background-color: #242D50;
+  }
+
+  footer li a {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  footer h5::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: white;
+    margin-top: 20px;
+}
