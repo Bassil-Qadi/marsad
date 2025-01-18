@@ -179,6 +179,15 @@ body {
     transform: scaleX(-1);
 }
 
+.card button:hover {
+    background: #0078BB33;
+    color: black;
+    transform: scale(.9);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
 @keyframes slide-out {
   0% {
     transform: translate(0, 0); /* Start at original position */
