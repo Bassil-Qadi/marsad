@@ -14,13 +14,17 @@ const lineChartData = {
     {
       label: "",
       // Arabic label for "Monthly Revenue"
-      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10000, 11000, 12000],
+      data: [
+        0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600,
+        700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 2000, 2500, 2700,
+        2900, 3000, 3200, 3300, 3500, 4000, 4500, 5000, 5500, 6000, 8000, 10000,
+      ],
       borderColor: "#e67e22",
       borderWidth: 4,
       fill: false,
       tension: 0.4, // Smooth curve
       pointBackgroundColor: "rgba(75, 192, 192, 1)",
-      pointRadius: 4,
+      pointRadius: 0,
     },
   ],
 };
