@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="1440" height="126.987" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 126.987">
+  <defs>
+    <clipPath id="e">
+      <rect width="1440" height="126.987" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="c" data-name="UI Shell - Footer">
+    <g id="d" data-name="Group 31211">
+      <g clip-path="url(#e)">
+        <g id="f" data-name="Group 31210">
+          <path id="g" data-name="Path 40250" d="M.698,111.411h760.5c13.67,0,26.78-5.433,36.445-15.1l57.748-57.748C880.433,13.523,914.505-.375,949.916.007l493.155-1.9-3.071,128.884H.698v-15.58Z" fill="#f9fafb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
