@@ -4,6 +4,10 @@ body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+ul {
+    list-style-type: circle;
+}
+
 .card {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -119,7 +123,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 60vh;
+    min-height: 80vh;
     background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.6)), 
               url('/assets/Lovepik_com-500738020-artificial-intelligence-background.jpg') no-repeat center center/cover;
     
