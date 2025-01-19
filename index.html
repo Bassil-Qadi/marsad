@@ -20,8 +20,7 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/assets/logo.svg" alt="مرصد" width="60" height="60">
@@ -31,9 +30,9 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse d-flex align-items-center justify-content-center navbar-collapse"
+            <div class="collapse  navbar-collapse"
                 id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
                     </li>
@@ -47,12 +46,16 @@
                         <a class="nav-link" href="#">الأبحاث</a>
                     </li>
                 </ul>
+                <div class="mb-2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    
+                </div> 
             </div>
-            <div class="mb-2">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">اتصل بنا</a>
-                </li>
-            </div>
+            
         </div>
     </nav>
 
@@ -568,8 +571,8 @@
             </div>
         </div>
         <div class="row my-5">
-            <div class="col-12">
-                <canvas id="aiIndexChart"></canvas>
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <canvas id="aiIndexChart" class="w-100"></canvas>
             </div>
         </div>
     </div>

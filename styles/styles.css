@@ -70,11 +70,6 @@ ul {
     color: #fff !important;
 }
 
-
-.navbar {
-    opacity: 0.84 !important;
-}
-
 .accordion {
     display: flex;
     align-items: center;
