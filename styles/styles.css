@@ -121,7 +121,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 65vh;
+  min-height: 85vh;
   background: url("/assets/hero.png") no-repeat center;
   background-size: cover;
 }
